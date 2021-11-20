@@ -1,0 +1,83 @@
+<style>
+  .header {
+    background-color: var(--color1);
+    width: 100%;
+  }
+  .header .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 100px;
+      width: 90%;
+      margin: 0 auto;
+  }
+  .header .wrapper > * {
+      margin: 0 8px;
+  }
+  .header .wrapper > *.shift-left {
+      margin-right: auto!important;
+  }
+  .header .wrapper > *.shift-right {
+      margin-left: auto!important;
+  }
+  .header .wrapper > *:first-child {
+      margin-left: 0;
+  }
+  .header .wrapper > *:last-child {
+      margin-right: 0;
+  }
+
+  .menu {
+      list-style: none;
+      display: flex;
+      align-items: center;
+  }
+  .menu .item {
+      margin: 0 21px;
+      font-weight: 700;
+      font-size: 72%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--color2);
+  }
+
+
+
+  .header.sticky {
+      position: fixed;
+      background-color: rgba(255, 255, 255, 0);
+  }
+  .header.sticky .brand-name {
+      color: var(--color1);
+  }
+  .header.sticky .menu .item {
+      color: var(--color1);
+  }
+  .header.sticky .icon svg {
+      stroke: var(--color1);
+  }
+</style>
+
+
+
+<header class="header">
+  <div class="wrapper">
+      
+      <a href="#" class="brand-name">Ratio</a>
+          
+      <nav class="menu shift-right">
+          <a href="#" class="item">home</a>
+          <a href="#" class="item">about</a>
+          <a href="#" class="item">collections</a>
+          <a href="#" class="item">contact</a>
+      </nav>
+
+      <div class="icons">
+          
+          {%- render 'icon-search' -%}
+          {%- render 'icon-bag' -%}
+
+      </div>
+
+  </div>
+</header>
