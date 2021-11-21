@@ -96,7 +96,11 @@
       {
         "type": "font_picker",
         "id": "type_header_font",
-        "default": "source_sans_pro_n4",
+<<<<<<< HEAD
+        "default": "source_sans_pro_n7",
+=======
+        "default": "source_sans_pro_n7",
+>>>>>>> eccf205d86eb9f7e38be63e9bcc89f958453583e
         "label": "t:settings_schema.typography.settings.type_header_font.label",
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
@@ -117,7 +121,7 @@
       {
         "type": "font_picker",
         "id": "type_body_font",
-        "default": "source_sans_pro_n4",
+        "default": "source_sans_pro_n7",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
       },
