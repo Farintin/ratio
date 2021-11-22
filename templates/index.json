@@ -1,10 +1,10 @@
 {
   "sections": {
-    "image_banner": {
+    "Banner1": {
       "type": "image-banner"
     }
   },
   "order": [
-    "image_banner"
+    "Banner1"
   ]
 }

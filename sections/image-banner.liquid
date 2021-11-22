@@ -15,7 +15,8 @@
   </div>
 
   <div class="block image-block">
-      <img src="{{ section.settings.image }}" alt="product">
+      <!--<img src="{{ section.settings.image.src }}" alt="product">-->
+      <img src="http://cdn.home-designing.com/wp-content/uploads/2017/11/charcoal-wide-upholstered-accent-chairs-600x600.jpg" alt="product">
   </div>
 
 </section>
@@ -26,12 +27,20 @@
 
 {% schema %}
 {
-  "name": "t:sections.image-banner.name",
+  "name": "Banner1",
   "settings": [
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:sections.image-banner.settings.image.label"
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner1",
+      "settings": {
+         "title": "Banner1"
+       }
     }
   ]
 }
