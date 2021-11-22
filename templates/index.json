@@ -1,14 +1,7 @@
 {
   "sections": {
-<<<<<<< HEAD
     "Banner1": {
       "type": "image-banner"
-=======
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-      }
->>>>>>> 7e26658d4a1f54a4179291b20a38aaf505c9a5ab
     }
   },
   "order": [
