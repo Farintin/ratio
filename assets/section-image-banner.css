@@ -1,57 +1,39 @@
-.header {
-  background-color: var(--color1);
-  width: 100%;
-}
-.header .wrapper {
+.banner1 {
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100px;
-  width: 90%;
+}
+
+.banner1 .block {
+  height: 100%;
+}
+.banner1 .text-block {
+  width: 35%;
+  background-color: #797b83;
+}
+.banner1 .text-block .wrapper {
+  width: 55%;
   margin: 0 auto;
-}
-.header .wrapper > * {
-  margin: 0 8px;
-}
-.header .wrapper > *.shift-left {
-  margin-right: auto!important;
-}
-.header .wrapper > *.shift-right {
-  margin-left: auto!important;
-}
-.header .wrapper > *:first-child {
-  margin-left: 0;
-}
-.header .wrapper > *:last-child {
-  margin-right: 0;
-}
-
-.menu {
-  list-style: none;
+  height: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 0;
+  box-sizing: border-box;
 }
-.menu .item {
-  margin: 0 21px;
-  font-weight: 700;
-  font-size: 75%;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--color2);
+.banner1 .text-block .wrapper > * {
+  margin: 8px 0;
+}
+.banner1 .text-block .wrapper .btn {
+  margin: 48px 0;
 }
 
 
 
-.header.sticky {
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0);
+.banner1 .image-block {
+  width: 65%;
 }
-.header.sticky .brand-name {
-  color: var(--color1);
-}
-.header.sticky .menu .item {
-  color: var(--color1);
-}
-.header.sticky .icon svg {
-  stroke: var(--color1);
+.banner1 .image-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

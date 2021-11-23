@@ -96,11 +96,7 @@
       {
         "type": "font_picker",
         "id": "type_header_font",
-<<<<<<< HEAD
         "default": "source_sans_pro_n7",
-=======
-        "default": "source_sans_pro_n7",
->>>>>>> eccf205d86eb9f7e38be63e9bcc89f958453583e
         "label": "t:settings_schema.typography.settings.type_header_font.label",
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
