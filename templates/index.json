@@ -3,6 +3,7 @@
     "Banner1": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/woman_in_clothing.jpg"
       }
     }
   },
